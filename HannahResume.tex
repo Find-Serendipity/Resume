@@ -1,0 +1,206 @@
+\documentclass[10.5pt, oneside]{memoir}
+\setlrmarginsandblock{0.5in}{3in}{*}
+\setulmarginsandblock{0.5in}{0.7in}{*}
+\setlength{\sidebarhsep}{0.5in}
+\setlength{\sidebarwidth}{2in}
+\setsidebarheight{\textheight}
+\checkandfixthelayout
+
+\setsubsubsecheadstyle{\normalsize\bfseries}
+\setsubsecheadstyle{\Large\bfseries}
+
+% Remove numbering from headings
+\setcounter{secnumdepth}{0}
+% Some paragraph separation
+\nonzeroparskip
+% No paragraph indents
+\setlength{\parindent}{0pt}
+% Some helpful commands for listing experience
+\newcommand{\employer}[2]{
+    \subsection{#1\hfill\normalsize\mdseries{#2}}}
+\newcommand{\position}[2]{
+    \textit{#1}\hfill{#2}}
+
+% Add rule under section headings
+\newcommand{\ruledsec}[1]{
+    \Large\bfseries #1 \par\vskip-2mm
+    \rule{1in}{0.1mm}
+    \par\vskip-2mm}
+%\setsecheadstyle{\ruledsec}
+
+\renewcommand{\familydefault}{\sfdefault}
+% More space between table rows
+\renewcommand{\arraystretch}{1.1}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{marvosym}
+\usepackage{titlesec}
+\usepackage{graphicx}
+
+\setlist{
+    nosep,
+    topsep=6pt,
+    itemsep=1pt,
+    parsep=0pt,
+    before=\vspace{-0.5\baselineskip},
+}
+\hypersetup{hidelinks}
+\titlespacing\section{0pt}{12pt plus 0pt minus 0pt}{6pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{8pt plus 0pt minus 0pt}{-4pt plus 0pt minus 0pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus
+    2pt}
+
+\begin{document}
+\pagenumbering{gobble}
+\begin{minipage}[t][0.6in][b]{5in}
+    {\fontsize{34pt}{40pt}\selectfont
+        \rmfamily\textbf{Hannah Johnson}}
+    \vfill
+    %Seeking employment
+    Community-driven full-stack engineer, with experience building inclusive
+    communities. Builds applications and games in JavaScript and SQL. Voracious
+    with learning, meticulous with details and tenacious when it comes to
+    resolving
+    problems.
+
+\end{minipage}
+\sidebar{\begin{minipage}[t][0.6in][b]{2in}
+
+        \mbox{\includegraphics[scale=0.02]{telephone.png}
+            \href{tel:360-951-0354}{360-951-0354}}
+        \vfill
+
+        \mbox{\includegraphics[scale=0.02]{envelope.png}
+
+            \href{mailto:find.serendipity@gmail.com}{find.serendipity@gmail.com}}
+        \vfill
+
+        \mbox{\includegraphics[scale=0.021]{github.png}
+
+            \href{http://github.com/Find-Serendipity}{github.com/Find-Serendipity}}
+        \vfill
+
+        \mbox{\includegraphics[scale=0.02]{linkedin.png}
+
+            \href{https://www.linkedin.com/in/findserendipity/}{bit.ly/findserendipity}}
+        \vfill
+
+    \end{minipage}}
+\vskip15pt
+
+% Is there a good way to make these tables the same width?
+% Yes: tabular* lets you declare a width
+\sidebar{
+    \section{Skills}
+    \subsubsection{Languages}
+    \begin{tabular*}{1.6in}{@{\extracolsep{\fill}} l r}
+        JavaScript & SQL\rule[13pt]{0pt}{\baselineskip} \\
+        TypeScript \\
+    \end{tabular*}
+
+    \subsubsection{Tools \& Technologies}
+    \begin{tabular*}{1.6in}{@{\extracolsep{\fill}} l r}
+        HTML & CSS \\
+        React & Redux \\
+        REST & Git\\
+        Express.js & Node.js\\
+        PostgreSQL & Prisma\\
+        Supertest & Jest\\
+        Prisma Mock & CORS\\
+        React Router & JWT\\
+        Morgan & bcrypt\\
+        Confluence & Jira\\
+        HubSpot & FirstData\\
+        Apps Scripts & GitHub\\
+        VS Code & WSL\\
+        Kanban & Agile\\
+    \end{tabular*}
+}
+
+\sidebar{
+    \section{Education}
+    \textbf{Bachelor of Arts\\
+        Anthropology/Archaeology;
+        2011\\
+    }
+    University of Washington,\\ Seattle, WA\\
+    \textit{Summa cum laude}
+}
+\hrule
+
+\employer{Fullstack Academy}{Remote}
+\position{Senior Software Engineer}{Feb 2024 -- June 2024}
+Top-ranking graduate of the online full-time full-stack web development
+bootcamp.
+\begin{itemize}
+    \item Learned advanced HTML, CSS, and Javascript implementation and
+          methodologies; application development with React; database design
+          with Prisma;
+          API creation with Express.js and complete integration and unit
+          testing with
+          Jest.
+    \item Worked in different teams to build 2 fully functional full-stack
+          applications. Utilized pair and mob programming during both projects.
+    \item Created an e-commerce app. Wrote code to import public API data
+          into a
+          new database. Deployed app to Netlify and database to Render.
+    \item Developed a full retro-feeling side-scroller game with vanilla
+          JS and
+          $\langle canvas \rangle$ with a team of 4 in under 3 weeks.
+          Deployed
+          both app and
+          database to
+          Render.
+    \item Acted as project manager while working on side-scroller game,
+          implementing tickets, lanes and pull-request best practices.
+          Configured GitHub
+          for continuous integration testing. Performed code reviews for the
+          team.\\
+\end{itemize}
+
+\employer{Community.co}{Remote}
+\position{Community Manager}{July 2019 -- June 2023}
+Acted as the sole community strategist and manager for an executive based
+community with a focus on increasing their engagement and reach through our
+development.
+\begin{itemize}
+    \item Designed and coded Apps Scripts against hand-collected data to drive
+          engagement and retention projects.
+    \item Created KPI using qualitative and quantitative member data, and
+          achieved
+          desired growth goals over time.
+    \item Managed VIP, CEO, and Influencer publishing through major US
+          based
+          business publications, including Forbes.
+    \item Outreach to the community increased activity from
+          2% to 7% during tenure. 
+    \item Planned and managed community events, activities, and programs.
+    \item Primary trainer for all new team members in community tactics
+          and
+          reporting.\\
+\end{itemize}
+
+\employer{Internet Brands }{Remote}
+\position{Community Manager}{July 2013 -- July 2019}
+\begin{itemize}
+    \item Engaged with the community to create a pipeline of bug reports and
+          feature suggestions that fed into the product and engineering teams
+          output.
+    \item Simultaneously managed the community and customer service teams,
+          moderation teams, and administered the community forums.
+    \item Implement new site rules, policies and standard operating procedures
+          to satisfy legal and business needs on an ongoing basis.
+    \item Increased moderator productivity and customer satisfaction
+          across our portfolio of websites from
+          61% to 96% over two years. 
+    \item Created and implemented user-generated content contests and
+          events resulting in increased retention over my tenure.
+    \item Managed all customer support issues requests and resolved all
+          abuse reports in accordance with legal mandates.
+\end{itemize}
+
+\end{document}
