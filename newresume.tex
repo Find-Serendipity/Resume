@@ -1,0 +1,121 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=0.9in, right=0.9in, top=0.8in, bottom=0.9in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xcolor}
+
+% Remove numbering from headings
+\setcounter{secnumdepth}{0}
+
+% Set up hyperref package
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black,
+    citecolor=black,
+    filecolor=black,
+    menucolor=black,
+    runcolor=black
+}
+
+% Define custom section format
+\titleformat{\section}[hang]{\large\bfseries}{\thesection}{0.5em}{}[\titlerule]
+\titleformat{\subsection}[hang]{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+\titleformat{\subsubsection}[hang]{\normalsize}{\thesubsubsection}{0.5em}{}
+
+% Adjust paragraph spacing
+\setlength{\parskip}{0.5em} % Adjusted for more space between paragraphs
+\setlength{\parindent}{0em} % No paragraph indentation
+
+% Reduce spacing in itemize
+\setlist{nosep}
+
+% Remove page number
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{flushleft} % Left-justify content
+    {\large \textbf{H.R. Johnson}} \\
+    Kazoo, Michigan \&
+    \href{tel:360-951-0354}{360-951-0354} \&
+    \href{mailto:find.serendipity@gmail.com}{find.serendipity@gmail.com} \\
+
+    \mbox{\href{https://github.com/Find-Serendipity}{github.com/Find-Serendipity}
+        \&\&
+
+        \href{https://www.linkedin.com/in/findserendipity/}{linkedin.com/in/findserendipity}}
+
+    \section{Summary}
+    Community-driven full-stack engineer with experience building inclusive
+    communities. Builds applications and games in JavaScript and SQL. Voracious
+    learner, meticulous with details, and tenacious problem-solver.
+
+    \section{Skills}
+    \subsection{Languages}
+    JavaScript, SQL, TypeScript, LaTeX
+
+    \subsection{Tools \& Technologies}
+    HTML, CSS, React, Redux, REST, Git, Express.js, Node.js, PostgreSQL,
+    Prisma,
+    Supertest, Jest, Prisma Mock, CORS, React Router, JWT, Morgan, bcrypt,
+    Confluence, Jira, HubSpot, FirstData, Apps Scripts, GitHub, VS Code, WSL,
+    Kanban, Agile
+
+    \section{Education}
+    \textbf{University of Washington, Seattle, WA} \hfill \textbf{2011} \\
+    Bachelor of Arts in Anthropology \& Archaeology, Summa cum laude
+
+    \section{Experience}
+
+    \subsection{Fullstack Academy, Remote} \hfill \textbf{Feb 2024 – June 2024}
+    \textbf{Student}
+    \begin{itemize}[leftmargin=0.5em]
+        \item Top-ranking graduate of the online full-time full-stack web
+              development bootcamp.
+        \item Learned advanced HTML, CSS, and JavaScript; developed
+              applications
+              with React; designed databases with Prisma; created APIs with
+              Express.js and
+              tested with Jest.
+        \item Built 2 full-stack applications using pair and mob programming.
+        \item Created an e-commerce app, importing public API data into a
+              database.
+              Deployed app to Netlify and database to Render.
+        \item Developed a side-scroller game with vanilla JS and \textless
+              canvas\textgreater with a team of 4 in under 3 weeks. Deployed to
+              Render.
+        \item Managed the side-scroller game project, implementing tickets,
+              lanes,
+              pull-requests, continuous integration testing, and code reviews.
+    \end{itemize}
+
+    \subsection{Community.co, Remote} \hfill \textbf{July 2019 – June 2023}
+    \textbf{Community Manager}
+    \begin{itemize}[leftmargin=0.5em]
+        \item Sole community strategist and manager for an executive-based
+              community.
+        \item Designed Apps Scripts to drive engagement and retention.
+        \item Achieved growth goals with KPIs based on member data.
+        \item Managed VIP, CEO, and Influencer publishing, including Forbes.
+        \item Increased community activity from 2\% to 7\%.
+        \item Planned and managed community events and programs.
+        \item Trained new team members in community tactics and reporting.
+    \end{itemize}
+
+    \subsection{Internet Brands, Remote} \hfill \textbf{July 2013 – July 2019}
+    \textbf{Community Manager}
+    \begin{itemize}[leftmargin=0.5em]
+        \item Created a pipeline of bug reports and feature suggestions.
+        \item Managed community, customer service, and moderation teams.
+        \item Implemented site rules, policies, and procedures.
+        \item Increased moderator productivity and customer satisfaction from
+              61\%
+              to 96\%.
+    \end{itemize}
+
+\end{flushleft}
+
+\end{document}

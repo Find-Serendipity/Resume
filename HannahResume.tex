@@ -40,6 +40,7 @@
 \usepackage{marvosym}
 \usepackage{titlesec}
 \usepackage{graphicx}
+\usepackage{relsize}
 
 \setlist{
     nosep,
@@ -58,7 +59,7 @@
 \pagenumbering{gobble}
 \begin{minipage}[t][0.6in][b]{5in}
     {\fontsize{34pt}{40pt}\selectfont
-        \rmfamily\textbf{Hannah Johnson}}
+        \rmfamily\textbf{H.R. Johnson}}
     \vfill
     %Seeking employment
     Community-driven full-stack engineer, with experience building inclusive
@@ -68,27 +69,25 @@
     problems.
 
 \end{minipage}
-\sidebar{\begin{minipage}[t][0.6in][b]{2in}
-
+\vskip15pt
+\sidebar{\begin{minipage}[t][1in][b]{6in}
         \mbox{\includegraphics[scale=0.02]{telephone.png}
             \href{tel:360-951-0354}{360-951-0354}}
-        \vfill
 
         \mbox{\includegraphics[scale=0.02]{envelope.png}
 
             \href{mailto:find.serendipity@gmail.com}{find.serendipity@gmail.com}}
-        \vfill
 
         \mbox{\includegraphics[scale=0.021]{github.png}
 
             \href{http://github.com/Find-Serendipity}{github.com/Find-Serendipity}}
-        \vfill
 
         \mbox{\includegraphics[scale=0.02]{linkedin.png}
 
-            \href{https://www.linkedin.com/in/findserendipity/}{bit.ly/findserendipity}}
-        \vfill
+            \relsize{-0.4}\href{https://www.linkedin.com/in/findserendipity/}{linkedin.com/in/findserendipity}}
 
+        \mbox{\includegraphics[scale=0.02]{home.png}
+            {Kazoo, Michigan}}
     \end{minipage}}
 \vskip15pt
 
@@ -99,7 +98,7 @@
     \subsubsection{Languages}
     \begin{tabular*}{1.6in}{@{\extracolsep{\fill}} l r}
         JavaScript & SQL\rule[13pt]{0pt}{\baselineskip} \\
-        TypeScript \\
+        TypeScript & {\LaTeX}\\
     \end{tabular*}
 
     \subsubsection{Tools \& Technologies}
