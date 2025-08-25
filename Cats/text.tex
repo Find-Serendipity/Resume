@@ -1,0 +1,18 @@
+\documentclass[12pt]{book}
+\usepackage[a4paper]{geometry}
+%\usepackage{palatino}
+\usepackage{fontspec}
+\usepackage{titlesec}
+
+%\newfontfamily\headingfont{Rockwell}
+\setmainfont{Palatino}
+\newfontfamily\chapfont{Herculanum}
+
+\titleformat{\chapter}[hang]
+  {\huge\chapfont}{\thechapter}{20pt}{\Huge}
+
+\begin{document}
+\chapter{Chapter in another font}
+My text is in Palatino, though.
+
+\end{document}

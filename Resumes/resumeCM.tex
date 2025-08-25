@@ -1,0 +1,117 @@
+% filepath: /home/icklekins/documents/resumeCM.tex
+\documentclass[a4paper,12pt]{article} % Changed font size to 12pt
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry} % Kept 1-inch margins
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xcolor}
+
+% Remove numbering from headings
+\setcounter{secnumdepth}{0}
+
+% Set up hyperref package
+\hypersetup{
+      colorlinks=true,
+      urlcolor=black,
+      linkcolor=black,
+      citecolor=black,
+      filecolor=black,
+      menucolor=black,
+      runcolor=black
+}
+
+% Define custom section format
+\titleformat{\section}[hang]{\Large\bfseries}{\thesection}{0.5em}{}[\titlerule] % Increased section header size
+\titleformat{\subsection}[hang]{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+\titleformat{\subsubsection}[hang]{\normalsize\bfseries}{\thesubsubsection}{0.5em}{}
+\titlespacing*{\section}{0pt}{2.0ex plus .1ex minus .2ex}{0.1in plus 1pt minus 1pt} % Adjusted space AFTER section titles/rules to 0.1in
+\titlespacing*{\subsection}{0pt}{0.2in plus 2pt minus 1pt}{0.8ex plus .1ex} % Increased space BEFORE subsection titles to at least 0.2in
+
+% Adjust paragraph spacing
+\setlength{\parskip}{0.75em} % Kept at 75% of current font size (now 12pt)
+\setlength{\parindent}{0em} % No paragraph indentation
+
+% Reduce spacing in itemize and set indentation
+\setlist[itemize]{nosep, leftmargin=0.5in} % Indent itemize lists by 0.50 inches
+
+% Remove page number
+\pagestyle{empty}
+
+\begin{document}
+      \begin{center} % Center-justify content
+      {\LARGE \textbf{Hannah R. Johnson}} \\
+      Community-Driven in Kalamazoo, Michigan \\
+      \mbox{\href{mailto:find.serendipity@gmail.com}{find.serendipity@gmail.com} \&
+            \href{https://www.linkedin.com/in/findserendipity/}{linkedin.com/in/findserendipity}}\\
+      \href{tel:360-951-0354}{360-951-0354}
+
+\end{center}
+
+\section{Summary }
+\noindent
+Proactive and resourceful professional with over 15 years of experience in activating communities, both digital and place-based. I excel at transforming challenges into opportunities for connection, whether it's facilitating dialogue between disparate groups, organizing engaging events, or demystifying complex processes for stakeholders. My background in anthropology fuels my approach to understanding community needs, while my practical skills in public speaking, report preparation, GIS, and self-taught Adobe Creative Suite allow me to deliver tangible results and support local leadership effectively.
+
+\section{Skills}
+\textbf{Languages {$\parallel$}} \small{{ French (Intermediate), JavaScript, SQL, LaTeX }} % \small is relative to 12pt
+
+\textbf{Tools and Technologies {$\parallel$}} \small{{ GIS, Adobe Creative Suite (Photoshop, InDesign, Illustrator), Microsoft Suite, Canva, Miro, Figma, HubSpot CRM, Jira, Git, HTML, CSS }} % \small is relative to 12pt
+
+\textbf{Proficiencies {$\parallel$}} \small{{ Community Organizing, Public Engagement, Event Facilitation, Report Writing, Data Analysis, Community Support, Conflict Resolution, Public Speaking, Project Management }} % \small is relative to 12pt
+\section{Experience}
+\subsection{\small{ Air Zoo Aviation Museum {$\parallel$} {Guest Experience Ambassador} \hfill \textbf{Aug 2024 - Current}}}
+\begin{itemize}
+      \item Facilitated educational programs and public engagement activities for diverse audiences, supporting the museum’s mission and community outreach.
+      \item Delivered presentations and interactive experiences to groups of all ages, strengthening communication between the museum and local residents.
+      \item Gathered and analyzed membership data to prepare reports for investors, highlighting community impact in specific neighborhoods.
+      \item Supported programmatic improvements by coordinating with staff and stakeholders to ensure accurate member records.
+      \item Applied conflict resolution and active listening skills to address guest concerns and foster a welcoming environment.
+\end{itemize}
+\subsection{Communitrix, Remote {$\parallel$}{ Founder} \hfill
+      \textbf{Sep 2023 – Current}}
+\begin{itemize}
+      \item Organized and supported online communities, developing engagement strategies and communication networks for clients.
+      \item Drafted and implemented community management plans, including outreach, event facilitation, and capacity-building initiatives.
+      \item Prepared reports and proposals for clients, including data analysis and recommendations for community growth.
+      \item Maintained client relationships and provided ongoing support to sustain community momentum.
+\end{itemize}
+\subsection{Community.co, Remote {$\parallel$}{ Community Manager} \hfill
+      \textbf{July 2019 – June 2023}}
+\begin{itemize}
+      \item Managed and grew professional communities, facilitating engagement and supporting leadership through strategic initiatives.
+      \item Coordinated and delivered virtual and in-person events, fostering collaboration among diverse members.
+      \item Prepared weekly reports for management, analyzing community trends and recommending improvements.
+      \item Provided training and mentorship to team members on community engagement and reporting best practices.
+      \item Resolved conflicts and supported members, ensuring a positive and inclusive environment.
+\end{itemize}
+\subsection{Internet Brands, Los Angeles, CA {$\parallel$}{ Community Manager} \hfill
+      \textbf{July 2013 – July 2019}}
+\begin{itemize}
+      \item Led cross-functional teams to support online communities, coordinate events, and deliver member support.
+      \item Facilitated communication between users and development teams, preparing reports and proposals for technical improvements.
+      \item Organized and executed member events, both online and onsite, to strengthen community ties.
+      \item Applied conflict resolution skills to address escalated issues and maintain a safe, welcoming environment.
+\end{itemize}
+
+\section{Education}
+\subsection{Fullstack Academy, Remote {$\parallel$} {Junior Developer} \hfill
+      \textbf{Feb 2024 – June 2024}}
+\begin{itemize}
+      \item Top-ranking graduate of the online full-time full-stack web
+            development
+            bootcamp.
+      \item Acted as project manager, implementing tickets, pull requests, and
+            continuous integration testing using GitHub.
+\end{itemize}
+
+\subsection{University of Washington, Seattle {$\parallel$}{ Bachelor of Arts
+                  in Anthropology} \hfill
+      \textbf{2011}}
+\begin{itemize}
+      \item Top-ranking graduate, Summa cum laude
+      \item Focused on Archaeology, Anthropology, Oceanography, Geology
+      \item Completed coursework in community development, urban geography, and fieldwork with local indigenous communities.
+      \item Participated in archaeological digs and museum stewardship, gaining experience in data collection, analysis, and public education.
+\end{itemize}
+
+\end{document}

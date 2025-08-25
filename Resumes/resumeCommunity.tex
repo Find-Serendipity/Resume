@@ -1,0 +1,118 @@
+% filepath: /home/icklekins/documents/resumeCM.tex
+\documentclass[a4paper,12pt]{article} % Changed font size to 12pt
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry} % Kept 1-inch margins
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xcolor}
+
+% Remove numbering from headings
+\setcounter{secnumdepth}{0}
+
+% Set up hyperref package
+\hypersetup{
+      colorlinks=true,
+      urlcolor=black,
+      linkcolor=black,
+      citecolor=black,
+      filecolor=black,
+      menucolor=black,
+      runcolor=black
+}
+
+% Define custom section format
+\titleformat{\section}[hang]{\Large\bfseries}{\thesection}{0.5em}{}[\titlerule] % Increased section header size
+\titleformat{\subsection}[hang]{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+\titleformat{\subsubsection}[hang]{\normalsize\bfseries}{\thesubsubsection}{0.5em}{}
+\titlespacing*{\section}{0pt}{2.0ex plus .1ex minus .2ex}{0.1in plus 1pt minus 1pt} % Adjusted space AFTER section titles/rules to 0.1in
+\titlespacing*{\subsection}{0pt}{0.2in plus 2pt minus 1pt}{0.8ex plus .1ex} % Increased space BEFORE subsection titles to at least 0.2in
+
+% Adjust paragraph spacing
+\setlength{\parskip}{0.75em} % Kept at 75% of current font size (now 12pt)
+\setlength{\parindent}{0em} % No paragraph indentation
+
+% Reduce spacing in itemize and set indentation
+\setlist[itemize]{nosep, leftmargin=0.5in} % Indent itemize lists by 0.50 inches
+
+% Remove page number
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Hannah R. Johnson}} \\
+    \vspace{1mm}
+    Kalamazoo, MI \textbar{} \href{mailto:find.serendipity@gmail.com}{find.serendipity@gmail.com} \textbar{} \href{tel:360-951-0354}{360-951-0354} \textbar{} \href{https://www.linkedin.com/in/findserendipity/}{linkedin.com/in/findserendipity}
+\end{center}
+
+% --- SUMMARY ---
+\section{Summary}
+Senior Global Community Manager with over 15 years of experience building, engaging, and supporting vibrant online communities, including extensive work in the gaming industry. A unique hybrid professional who combines deep community strategy with hands-on technical skills in static website development (HTML, CSS, JavaScript), maintenance, and security. Proven ability to drive player engagement through compelling content, data-driven communication strategies, and a passion for creating positive, inclusive digital spaces.
+
+% --- SKILLS ---
+\section{Core Competencies}
+\begin{itemize}
+    \item \textbf{Community Strategy:} Global Community Management, Player Engagement \& Retention, Content Strategy, Moderation, Social Media Management, Brand Ambassadorship, Analytics \& Reporting
+    \item \textbf{Web Development:} Static Website Development (HTML, CSS, JavaScript), Website Maintenance \& Security, Bug Troubleshooting, SEO Principles, Performance Optimization
+    \item \textbf{Tools \& Platforms:} Google Suite (Drive, Docs, Sheets), Adobe Creative Suite (Photoshop, Illustrator), WordPress, MailChimp, Jira, Git, Various CMS \& Forum Platforms
+\end{itemize}
+
+% --- EXPERIENCE ---
+\section{Professional Experience}
+
+\subsection{Founder, Community \& Web Development Consultant \hfill Sep 2023 – Present}
+\textit{Communitrix, Remote}
+\begin{itemize}
+    \item Develop, maintain, and optimize static websites for a diverse client base, utilizing HTML, CSS, and JavaScript to build features and ensure cross-browser compatibility.
+    \item Troubleshoot technical issues, resolve bugs, and implement security patches to ensure high uptime and website stability.
+    \item Create and integrate visual assets such as graphics, banners, and icons to enhance branding and community engagement.
+    \item Manage client community channels, including forums and social media, and develop player communication strategies through email newsletters and platform announcements.
+\end{itemize}
+
+\subsection{Community Manager \hfill July 2019 – June 2023}
+\textit{Community.co, Remote}
+\begin{itemize}
+    \item Managed a portfolio of high-profile professional communities for major publications including Forbes, Fast Company, and Rolling Stone Culture Council.
+    \item Produced and managed content for newsletters, reports, and social media updates, driving community growth and engagement.
+    \item Coordinated with cross-functional technical teams to ensure consistent brand messaging and support website updates.
+    \item Generated growth goals based on KPIs, using qualitative and quantitative member data to inform strategy.
+\end{itemize}
+
+\subsection{Community \& Customer Service Manager \hfill July 2013 – July 2019}
+\textit{Internet Brands / Model Mayhem, El Segundo, CA}
+\begin{itemize}
+    \item Created and managed content across digital platforms, including social media, newsletters, and educational blog posts.
+    \item Implemented strategic social media campaigns that increased user engagement and brand visibility, improving moderator productivity and customer satisfaction from 61\% to 96\% year-over-year.
+    \item Wrote and edited press releases and other marketing materials, ensuring consistent application of brand identity.
+\end{itemize}
+
+\subsection{Community Manager, Gaming \hfill Jan 2013 – July 2013}
+\textit{Breaktime Studios, Remote}
+\begin{itemize}
+    \item Simultaneously managed communities for a portfolio of eight mobile game titles.
+    \item Created engaging multimedia content for social media, resulting in a 50\% growth in Facebook following through targeted campaigns.
+    \item Acted as the primary liaison between the player base and development teams, communicating feedback and reporting on community sentiment.
+\end{itemize}
+
+\subsection{Social Media Strategist \& Community Moderator \hfill 2009 – 2013}
+\textit{Metaverse Mod Squad \& Zynga Games, Remote}
+\begin{itemize}
+    \item Built and maintained brand pages for diverse clients on Facebook, Twitter, and WordPress at Metaverse Mod Squad.
+    \item Provided community moderation and social media support for multiple iPhone games at Zynga.
+    \item Authored weekly reports on community trends using data-driven models and created game guides to support player retention.
+\end{itemize}
+
+% --- EDUCATION & TECHNICAL TRAINING ---
+\section{Education \& Technical Training}
+\subsection{Fullstack Academy, Remote \hfill 2024}
+\textit{Top-Ranking Graduate, Full-Stack Web Development Bootcamp}
+\begin{itemize}
+    \item Completed an immersive program focused on modern web technologies, including JavaScript, React, and Node.js.
+    \item Acted as project manager for capstone projects, implementing tickets, pull requests, and CI testing using GitHub.
+\end{itemize}
+
+\subsection{University of Washington, Seattle \hfill}
+\textit{Bachelor of Arts in Anthropology, Summa cum laude}
+
+\end{document}
