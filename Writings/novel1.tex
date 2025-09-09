@@ -1,0 +1,90 @@
+\documentclass[12pt, letterpaper]{book}
+
+% --- PACKAGES ---
+\usepackage[utf8]{inputenc} % Input encoding
+\usepackage[T1]{fontenc}      % Font encoding
+\usepackage{geometry}         % For page margins
+\usepackage{setspace}         % For line spacing
+\usepackage{lipsum}           % For placeholder text to demonstrate formatting
+
+% --- DOCUMENT SETUP ---
+% Set 1-inch margins on all sides, standard for manuscripts
+\geometry{
+    letterpaper,
+    left=1in,
+    right=1in,
+    top=1in,
+    bottom=1in,
+}
+
+% Set double spacing for readability and editor comments
+\doublespacing
+
+% --- TITLE & AUTHOR ---
+% Replace with your actual title and name
+\title{Novel Title}
+\author{Hannah R. Johnson}
+\date{August 2025} % You can set a specific date or use \today
+
+% --- DOCUMENT START ---
+\begin{document}
+
+% --- FRONT MATTER ---
+% This section includes the title page, copyright, dedication, etc.
+% It uses Roman numerals for page numbers.
+\frontmatter
+
+% Generates the title page. By default, it has no page number.
+\maketitle
+
+% Optional: Copyright Page
+% \newpage
+% \thispagestyle{empty} % No page number on this page
+% \vspace*{\fill} % Centers content vertically
+% \begin{center}
+%     Copyright \copyright\ \the\year\ by Hannah R. Johnson \\
+%     All rights reserved.
+% \end{center}
+% \vspace*{\fill}
+
+% Optional: Dedication Page
+% \newpage
+% \thispagestyle{empty}
+% \vspace*{\fill}
+% \begin{center}
+%     \textit{For someone special.}
+% \end{center}
+% \vspace*{\fill}
+
+
+% --- MAIN MATTER ---
+% This is the main body of your novel.
+% It resets page numbering to Arabic (1, 2, 3...) and starts chapter numbering.
+\mainmatter
+
+\chapter{The Beginning}
+\label{chap:the-beginning}
+
+This is the first paragraph of your novel. I've included some placeholder text using the `lipsum` package to show you how the formatting will look. You can remove it and start writing your story.
+
+\lipsum[1-4] % Placeholder text. Remove this.
+
+\section*{Part Two} % Use \section* for unnumbered sections within a chapter
+
+Here is another part of the first chapter.
+
+\lipsum[5-8] % Placeholder text. Remove this.
+
+\chapter{A New Horizon}
+\label{chap:new-horizon}
+
+The story continues in the second chapter. Each new chapter will automatically start on a new page.
+
+\lipsum[9-15] % Placeholder text. Remove this.
+
+
+% --- BACK MATTER ---
+% Use this for appendices, glossaries, etc. if needed.
+% \backmatter
+
+\end{document}
