@@ -1,0 +1,117 @@
+\documentclass[a4paper,12pt]{article} % Changed font size to 12pt
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry} % Kept 1-inch margins
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xcolor}
+
+% Remove numbering from headings
+\setcounter{secnumdepth}{0}
+
+% Set up hyperref package
+\hypersetup{
+      colorlinks=true,
+      urlcolor=black,
+      linkcolor=black,
+      citecolor=black,
+      filecolor=black,
+      menucolor=black,
+      runcolor=black
+}
+
+% Define custom section format
+\titleformat{\section}[hang]{\Large\bfseries}{\thesection}{0.5em}{}[\titlerule] % Increased section header size
+\titleformat{\subsection}[hang]{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+\titleformat{\subsubsection}[hang]{\normalsize\bfseries}{\thesubsubsection}{0.5em}{}
+\titlespacing*{\section}{0pt}{2.0ex plus .1ex minus .2ex}{0.1in plus 1pt minus 1pt} % Adjusted space AFTER section titles/rules to 0.1in
+\titlespacing*{\subsection}{0pt}{0.2in plus 2pt minus 1pt}{0.8ex plus .1ex} % Increased space BEFORE subsection titles to at least 0.2in
+
+% Adjust paragraph spacing
+\setlength{\parskip}{0.75em} % Kept at 75% of current font size (now 12pt)
+\setlength{\parindent}{0em} % No paragraph indentation
+
+% Reduce spacing in itemize and set indentation
+\setlist[itemize]{nosep, leftmargin=0.5in} % Indent itemize lists by 0.50 inches
+
+% Remove page number
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Hannah R. Johnson}} \\
+    \vspace{1mm}
+    Kalamazoo, MI \textbar{} \href{mailto:find.serendipity@gmail.com}{find.serendipity@gmail.com} \textbar{} \href{tel:360-951-0354}{360-951-0354} \textbar{} \href{https://www.linkedin.com/in/findserendipity/}{linkedin.com/in/findserendipity}
+\end{center}
+
+% --- SUMMARY ---
+\section{Summary}
+Passionate Community Support Specialist with extensive experience in the gaming and PC hardware sectors. Proven ability to act as a vital link between users and development teams, providing friendly, effective support for users of all technical levels. Adept at troubleshooting hardware and software, moderating communities, and creating support documentation. Driven to help gamers build and enjoy their ideal setups.
+
+% --- SKILLS ---
+\section{Core Competencies}
+\begin{itemize}
+    \item \textbf{Technical Support:} Troubleshooting PC hardware/software, RGB device compatibility, Knowledge Base creation, Bug Reporting
+    \item \textbf{Community Management:} Discord/forum moderation, Content creation (guides, FAQs), User feedback collection, Empathetic user communication
+    \item \textbf{Gaming \& Hardware:} Deep familiarity with RGB ecosystems (Corsair, Razer, Logitech), PC building, Passion for gaming culture
+    \item \textbf{Web Development:} Static Website Development (HTML, CSS, JavaScript), Website Maintenance \& Security
+    \item \textbf{Tools \& Platforms:} Discord, Google Suite, Adobe Creative Suite, WordPress, Jira, Git, CMS \& Forum Platforms
+\end{itemize}
+
+% --- EXPERIENCE ---
+\section{Professional Experience}
+
+\subsection{Founder, Community \& Web Development Consultant \hfill Sep 2023 – Present}
+\textit{Communitrix, Remote}
+\begin{itemize}
+    \item Provide timely, friendly, and effective technical support for client communities, including troubleshooting PC hardware, software, and peripheral compatibility issues.
+    \item Manage social media profiles to maintain a positive, helpful, and inclusive atmosphere.
+    \item Develop and maintain static websites (HTML, CSS, JavaScript) and create support content such as guides and FAQs to build a knowledge base.
+\end{itemize}
+
+\subsection{Community Manager \hfill July 2019 – June 2023}
+\textit{Community.co, Remote}
+\begin{itemize}
+    \item Managed and supported large online communities, providing timely assistance and troubleshooting for members.
+    \item Acted as a liaison between the community and technical teams to report bugs, communicate user needs, and advocate for feature requests.
+    \item Moderated Facebook and forum spaces to foster a welcoming and helpful environment for all users.
+\end{itemize}
+
+\subsection{Community \& Customer Service Manager \hfill July 2013 – July 2019}
+\textit{Internet Brands / Model Mayhem, El Segundo, CA}
+\begin{itemize}
+    \item Provided high-quality technical and customer support for a large-scale online community, patiently resolving user issues and documenting solutions.
+    \item Moderated community spaces to maintain a positive environment and created support guides and tutorials for users of varying technical expertise.
+\end{itemize}
+
+\subsection{Community Manager, Gaming \hfill Jan 2013 – July 2013}
+\textit{Breaktime Studios, Remote}
+\begin{itemize}
+    \item Managed company's portfolio of gaming communities, acting as the primary liaison between players and the development team.
+    \item Gathered, organized, and prioritized user feedback to help guide feature improvements and bug fixes.
+    \item Stayed current with new hardware and software releases relevant to the gaming community.
+\end{itemize}
+
+\subsection{Social Media Strategist \& Community Moderator \hfill 2009 – 2013}
+\textit{Metaverse Mod Squad \& Zynga Games, Remote}
+\begin{itemize}
+    \item Provided community moderation and technical support for Farmville, Mafia Wars, and other games.
+    \item Monitored social media channels to engage with users, address concerns, and promote a positive community atmosphere.
+    \item Authored comprehensive guides, FAQs, and weekly reports on community trends, common issues, and player sentiment.
+\end{itemize}
+
+% --- EDUCATION & TECHNICAL TRAINING ---
+\section{Education \& Technical Training}
+\subsection{Fullstack Academy, Remote \hfill 2024}
+\textit{Top-Ranking Graduate, Full-Stack Web Development Bootcamp}
+\begin{itemize}
+    \item Completed an immersive program focused on modern web technologies, including JavaScript, React, and Node.js.
+    \item Moderated project group's Discord channels, providing support and fostering a collaborative learning environment.
+    \item Acted as project manager for capstone projects, implementing tickets, pull requests, and CI testing using GitHub.
+\end{itemize}
+
+\subsection{University of Washington, Seattle \hfill}
+\textit{Bachelor of Arts in Anthropology, Summa cum laude}
+
+\end{document}
