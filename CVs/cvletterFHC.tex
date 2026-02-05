@@ -1,0 +1,52 @@
+\documentclass{letter}
+\usepackage[left=1in, right=1in, top=.6in, bottom=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xcolor}
+
+% Adjust paragraph spacing
+\setlength{\parskip}{1.3em} % Adjusted for more space between paragraphs
+\setlength{\parindent}{0em} % No paragraph indentation
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\usepackage{hyperref}
+
+\hypersetup{hidelinks}
+
+\address{
+	Hannah R. Johnson \\
+	Kalamazoo, MI 49007 \\
+	360-951-0354 \\
+    \href{mailto:find.serendipity@gmail.com}{find.serendipity@gmail.com}
+}
+\date{\today}
+\begin{document}
+
+\begin{letter}{
+Family Health Center \\
+Hiring Manager \\
+Kalamazoo, MI
+}
+\opening{Dear Hiring Manager,}
+
+I am writing to express my enthusiastic interest in the Patient Registration Technician position at the Family Health Center. Your mission to provide comprehensive, patient-centered health care to all members of the community resonates deeply with my own commitment to service and creating welcoming, inclusive environments.
+
+With a strong background in customer-facing roles, I am adept at being the first point of contact, ensuring a positive and professional experience for every individual. My experience includes managing sensitive information, maintaining detailed records, and utilizing various software systems for data entry and reporting—skills that align directly with the responsibilities of this role. I am a quick learner, highly organized, and thrive in fast-paced environments that require focus and the ability to multitask effectively.
+
+I am confident that my professional demeanor and dedication to quality service would make me a valuable addition to your team. I am eager to learn more about this opportunity and discuss how I can contribute to the outstanding patient experience at the Family Health Center.
+
+	\closing{\vspace{1em} 
+        Sincerely,\\
+		\fromsig{\includegraphics[scale=0.3]{signature.png}} \\
+		\fromname{\textbf{Hannah Johnson} \\}
+
+		{\href{https://www.linkedin.com/in/findserendipity/}{linkedin.com/in/findserendipity}}
+	}
+
+\end{letter}
+\end{document}
