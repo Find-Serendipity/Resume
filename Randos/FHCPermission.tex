@@ -1,0 +1,52 @@
+\documentclass{letter}
+\usepackage[left=1in, right=1in, top=.6in, bottom=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xcolor}
+
+% Adjust paragraph spacing
+\setlength{\parskip}{1.3em} % Adjusted for more space between paragraphs
+\setlength{\parindent}{0em} % No paragraph indentation
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\usepackage{hyperref}
+
+\hypersetup{hidelinks}
+
+\address{
+	Hannah R. Johnson \\
+	Kalamazoo, MI 49007 \\
+	360-951-0354 \\
+    \href{mailto:find.serendipity@gmail.com}{find.serendipity@gmail.com}
+}
+\date{\today}
+\begin{document}
+
+\begin{letter}{
+Selena Salazar \\
+Human Resource Business Partner \\
+Family Health Center \\
+117 W. Paterson St Kalamazoo, MI 49007
+}
+
+\opening{To whom it may concern,}
+
+This letter is to note that the date of my last flu shot was 04/09/2025, and I cannot recall the date of my last Hepatitis B vaccination, but I have received the full series in the past.
+
+Since I cannot provide adequate documentation of my vaccination history, I am writing this letter to provide my consent to receive the necessary vaccinations to meet the requirements for employment at the Family Health Center.
+
+Thank you for your concern and consideration. 
+
+	\closing{\vspace{1em} 
+		Sincerely,\\
+			\fromsig{\includegraphics[scale=0.3]{signature.png}} \\
+			\fromname{\textbf{Hannah Johnson}}
+		}
+
+\end{letter}
+\end{document}

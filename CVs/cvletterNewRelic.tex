@@ -1,0 +1,53 @@
+\documentclass{letter}
+\usepackage[left=1in, right=1in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xcolor}
+
+% Adjust paragraph spacing
+\setlength{\parskip}{1em} % Tighter paragraph gap to force single page
+\setlength{\parindent}{0em} % No paragraph indentation
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+
+\address{
+    Hannah R. Johnson \\
+    Kalamazoo, MI 49007 \\
+    360-951-0354 \\
+    \href{mailto:find.serendipity@gmail.com}{find.serendipity@gmail.com}
+}
+\date{\today}
+\begin{document}
+
+\begin{letter}{
+New Relic \\
+Hiring Team \\
+Remote
+}
+\opening{Dear Hiring Team,}
+
+As a Customer Success professional with a strong background in customer-facing roles, I am adept at being the first point of contact, ensuring a positive and professional experience for every individual. Following a rigorous Full-Stack Web Development certification at Fullstack Academy, I have operated at the explicit intersection of relationship management and technical infrastructure. I am incredibly enthusiastic about the Technical Success Manager position at New Relic, where I can help your users confidently navigate your platform.
+
+My experience includes managing sensitive client information, maintaining detailed records, and utilizing various software systems for data entry and reporting—skills that align directly with the responsibilities of this role. At Community.co, I managed the platform adoption and account health lifecycles for corporate networks, driving platform engagement from an initial 2\% to a robust 7\%. I am a quick learner, highly organized, and thrive in fast-paced environments that require deep focus and the ability to multitask effectively, whether automating reporting loops with custom scripts or translating user requirements into actionable engineering sprints.
+
+I am confident that my professional demeanor, technical writing foundation, and dedication to quality service would make me a valuable addition to your team. While serving as a Customer Success Specialist and UX Liaison at Internet Brands, I increased customer satisfaction from 61\% to 96\% by building comprehensive technical documentation and knowledge bases from scratch. I am eager to learn more about this opportunity and discuss how I can contribute to an outstanding customer experience at New Relic.
+
+Thank you for your time and consideration. I look forward to discussing how my background in technical translation and customer relationship management can drive long-term user success and retention.
+
+\closing{\vspace{0.5em} 
+        Sincerely,\\
+        \fromsig{\includegraphics[scale=0.3]{signature.png}} \\
+        \fromname{\textbf{Hannah Johnson} \\}
+
+        {\href{https://www.linkedin.com/in/findserendipity/}{linkedin.com/in/findserendipity}}
+    }
+
+\end{letter}
+\end{document}

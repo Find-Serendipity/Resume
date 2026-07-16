@@ -1,0 +1,54 @@
+\documentclass{letter}
+\usepackage[left=1in, right=1in, top=.6in, bottom=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xcolor}
+
+% Adjust paragraph spacing
+\setlength{\parskip}{1em} % Adjusted for more space between paragraphs
+\setlength{\parindent}{0em} % No paragraph indentation
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\usepackage{hyperref}
+
+\hypersetup{hidelinks}
+
+\address{
+	Hannah R. Johnson \\
+	Kalamazoo, MI 49007 \\
+	360-951-0354 \\
+    \href{mailto:find.serendipity@gmail.com}{find.serendipity@gmail.com}
+}
+\date{\today}
+\begin{document}
+
+\begin{letter}{
+Major League Hacking \\
+Hiring Manager \\
+Remote
+}
+\opening{Dear Hiring Manager,}
+
+I am writing to express my enthusiastic interest in the Community Program Manager position. Your focus on building deep relationships with technical audiences and growing vibrant developer ecosystems resonates deeply with my own commitment to bridging the gap between engineering teams and community marketing strategies.
+
+With over seven years of experience managing large-scale digital platforms, I am adept at being the primary point of contact for technical users, ensuring a positive and highly engaging developer experience. My background includes nurturing open-source culture, mastering GitHub workflows, and authoring clear technical documentation. Furthermore, my intensive training in full-stack web development allows me to speak the same language as your engineering audience, enabling me to advocate for their needs while leveraging generative AI and custom scripting to optimize community operations.
+
+I excel at translating community data and raw technical telemetry into high-impact, visual insights for executive and sponsor partners. I am highly organized, data-driven, and thrive in fast-paced technical environments that require both proactive project management and swift incident resolution.
+
+I am confident that my unique blend of community operations expertise and software engineering exposure would make me a valuable addition to your team. I am eager to learn more about this opportunity and discuss how I can contribute to the growth and vitality of your developer community.
+
+\closing{\vspace{1em} 
+        Sincerely,\\
+		\fromsig{\includegraphics[scale=0.3]{signature.png}} \\
+		\fromname{\textbf{Hannah Johnson} \\}
+
+		{\href{https://www.linkedin.com/in/findserendipity/}{linkedin.com/in/findserendipity}}
+	}
+
+\end{letter}
+\end{document}
