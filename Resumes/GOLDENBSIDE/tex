@@ -1,0 +1,116 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[left=0.75in, right=0.75in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xcolor}
+
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+\setlist[itemize]{topsep=1pt, partopsep=0pt, parsep=0pt, itemsep=2pt, leftmargin=15pt}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\hypersetup{hidelinks}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titrule]
+\titlespacing{\section}{0pt}{10pt}{4pt}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Hannah R. Johnson}} \\
+    \vspace{2pt}
+    Kalamazoo, MI 49007 | 360-951-0354 | \href{mailto:find.serendipity@gmail.com}{find.serendipity@gmail.com} | \href{https://www.linkedin.com/in/findserendipity/}{linkedin.com/in/findserendipity}
+\end{center}
+
+\section{Technical Skills \& Core Competencies}
+\begin{itemize}
+    \item \textbf{Support Operations \& Efficiency:} Support pod leadership (10+ agents), ticketing queue routing, response time reduction, backlog triage, macro design, help center content strategy, custom reporting dashboards, SLA compliance, QA scorecards, onboarding playbook design, SOP creation, and KPI tracking.
+    \item \textbf{Technical Logic \& Automation:} Rapid software system adoption, generative AI configuration, API logic, webhook workflows, script-based reporting automation (Google Apps Script), data analysis, data collation pipelines, and system integration logic.
+    \item \textbf{Engineering \& Architecture:} Full-stack web development (HTML5, CSS3, JavaScript, TypeScript, React.js, Next.js, Redux, Node.js, Express.js, Laravel), database models (PostgreSQL, SQL, JSON, Prisma), Git version control, testing (Jest), and security (JWT, bcrypt).
+    \item \textbf{Platforms \& Tools:} Jira, Confluence, Zendesk, HubSpot CRM, Epic Software, Hootsuite, Canva, MailChimp, Adobe Creative Suite (Photoshop, InDesign, Illustrator), Google Workspace, FirstData, GitHub, GitHub Actions, Docker, Linux, WSL, VS Code.
+    \item \textbf{Languages:} JavaScript, TypeScript, HTML5, CSS3, SQL, LaTeX, French (Intermediate Proficiency).
+\end{itemize}
+
+\section{Professional Experience}
+
+\textbf{Customer Experience Technician} | Family Health Center (Kalamazoo, MI) \hfill March 2026 - Present
+\begin{itemize}
+    \item Manage high volume patient intake, registration pipelines, and front-desk switchboard routing inside a fast-paced Federally Qualified Health Center.
+    \item Optimized internal scheduling auditing workflows by utilizing the Epic Daily Appointments Report, reducing the total time required to audit, filter, and verify provider schedule configurations.
+    \item Inspect, verify, and input critical patient demographic, insurance, and billing schemas, systematically preventing downstream processing friction and organizational bottlenecks.
+    \item Troubleshoot scheduling requirements and manage multi-channel front-desk patient flow while maintaining absolute confidentiality in compliance with rigorous HIPAA regulations.
+    \item Execute point-of-service fee collections, tally shift balances, and manage closing balance sheets in strict adherence to clinic cash receipt policies.
+\end{itemize}
+
+\textbf{Founder} | Communitrix (Remote) \hfill September 2023 - Present
+\begin{itemize}
+      \item Developed and executed custom community management and social media strategies for clients to optimize user acquisition and digital engagement.
+      \item Leveraged generative AI prompt workflows to rapidly draft project scopes, client service contracts, and operational requirements.
+      \item Analyzed client operational and engagement data to generate structured performance reports and actionable strategic insights for stakeholders.
+      \item Rebuilt client website utilizing modern frameworks to upgrade security standards, improve site stability, and enhance the overall user experience.
+\end{itemize}
+
+\textbf{Guest Experience Ambassador} | AirZoo Aviation Museum (Portage, MI) \hfill August 2024 - Present
+\begin{itemize}
+    \item Operated the ticket desk, serving as the first point of contact for visitors, and manage front-desk communications including phone calls and mail distribution.
+    \item Assisted with membership services, including data entry, creating reports with graphs and charts, and assembling welcome materials.
+    \item Applied conflict resolution and active listening skills to address guest concerns and foster a welcoming environment.
+    \item Gathered and analyzed membership data to prepare reports for investors, highlighting community impact in specific neighborhoods.
+    \item Provided safe and timely transportation for guests between campus locations via the shuttle service.
+\end{itemize}
+
+\textbf{Community Manager} | Community.co (Remote) \hfill July 2019 - May 2023
+\begin{itemize}
+    \item Programmed custom Google Apps Scripts to automate metric collection pipelines, user engagement tracking, and retention analytics.
+    \item Coordinated high-sensitivity executive publishing workflows and interactive event schedules for Forbes Councils, Newsweek Expert Forum, and Fast Company Executive Board.
+    \item Created, monitored, and analyzed core team KPIs to achieve targeted platform growth and engagement milestones.
+    \item Increased active platform user engagement from 2\% to 7\% through data-driven interaction strategies and systematic interface moderation.
+    \item Trained incoming team members on internal platform tools, database reporting systems, and technical workflow documentation.
+\end{itemize}
+
+\textbf{Community Manager} | Internet Brands (Los Angeles, CA) \hfill September 2013 - July 2019
+\begin{itemize}
+    \item Managed multi-tier, cross-functional moderation teams and platform operational support queues across a high-volume multi-vertical website portfolio.
+    \item Increased portfolio customer satisfaction ratings from 61\% to 96\% over a 24-month period by isolating operational friction and optimizing queue response times.
+    \item Designed and executed user-generated content campaigns and community retention events to stabilize long-term platform traffic.
+    \item Resolved advanced user support escalations, technical system friction, platform integrity bugs, and systemic abuse reports.
+    \item Authored technical site documentation, feature updates, user guides, and comprehensive system whitepapers.
+\end{itemize}
+
+\textbf{Community Manager} | Breaktime Studio (San Francisco, CA) \hfill January 2013 - August 2013
+\begin{itemize}
+    \item Managed active social platform channels and customer support ticketing queues for 8 concurrent mobile gaming titles.
+    \item Increased core brand page following by 50\% using targeted audience delivery loops and structured communication schedules.
+    \item Isolated, filtered, and translated real-time community bug feedback into technical inputs to build a prioritized product release schedule for the engineering team.
+\end{itemize}
+
+\textbf{Community Liaison} | Zynga (Remote) \hfill May 2009 - December 2012
+\begin{itemize}
+    \item Monitored and moderated high-volume iOS mobile gaming forums to protect platform health and enforce user policies.
+    \item Documented real-time community sentiment shifts and isolated system-level anomalies, reporting directly to core engineering teams to guide patch loops.
+    \item Produced technical player documentation, gameplay tutorials, feature release logs, and instructional video guides.
+\end{itemize}
+
+\section{Education}
+
+\textbf{Technical Certification} | Full-Stack Web Development Academy (Remote) \hfill Graduate, Top of Class - 2024
+\begin{itemize}
+    \item Built and deployed interactive full-stack web applications within collaborative, agile development settings, acquiring deep fluency in modern web ecosystems.
+    \item Managed team codebases and deployment lifecycles using Git version control, explicitly handling feature branching, repository architecture, and resolving complex merge conflicts.
+\end{itemize}
+
+\textbf{University of Washington} \hfill \textbf{Magna Cum Laude} \\
+\textit{Bachelor of Arts in Anthropology (Focus in Archaeology)}
+\begin{itemize}
+    \item Spent dedicated time in the Burke Museum cataloging and rehousing artifacts for public display; conducted extensive laboratory work cleaning, analyzing, and cataloging archaeological artifacts.
+\end{itemize}
+
+\textbf{Shelton High School} \hfill \textbf{Summa Cum Laude} \\
+\textit{Diploma}
+
+\end{document}
